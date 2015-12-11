@@ -23,6 +23,10 @@ public class ComplexDocument implements Document {
         return false;
     }
 
+    public boolean removeDocument(Document d) {
+        return documents.remove(d);
+    }
+
     public void setId(int i) {
         id = i;
         UtilLog.logDocument(this);

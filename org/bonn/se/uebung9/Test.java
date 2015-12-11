@@ -26,5 +26,9 @@ public class Test {
         doc3.addDocument(doc5);
 
         System.out.println("Größe der Dokumentensammlung doc0: " + doc0.getBytes() + " Byte.");
+
+        // Test removing Documents
+        System.out.println(doc3.removeDocument(5));
+        System.out.println(doc3.removeDocument(doc4));
     }
 }
