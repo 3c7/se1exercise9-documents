@@ -8,9 +8,8 @@ import java.util.ArrayList;
  * Created on 11.12.2015
  * Description:
  */
-public class ComplexDocument implements Document {
+public class ComplexDocument extends AbstractDocument implements Document {
     private ArrayList<Document> documents = new ArrayList<Document>();
-    private int id;
 
     public boolean addDocument(Document d) {
         return documents.add(d);
@@ -25,15 +24,6 @@ public class ComplexDocument implements Document {
 
     public boolean removeDocument(Document d) {
         return documents.remove(d);
-    }
-
-    public void setId(int i) {
-        id = i;
-        UtilLog.logDocument(this);
-    }
-
-    public int getId() {
-        return id;
     }
 
     public int getBytes() {

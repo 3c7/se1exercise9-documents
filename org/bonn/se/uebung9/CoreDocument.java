@@ -6,18 +6,5 @@ package org.bonn.se.uebung9;
  * Created on 11.12.2015
  * Description:
  */
-public abstract class CoreDocument implements Document {
-    private int id;
-
-    public void setId(int id) {
-        this.id = id;
-        UtilLog.logDocument(this);
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public abstract int getBytes();
-
+public abstract class CoreDocument extends AbstractDocument implements Document {
 }
