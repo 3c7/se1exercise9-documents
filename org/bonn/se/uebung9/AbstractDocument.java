@@ -1,7 +1,7 @@
 package org.bonn.se.uebung9;
 
 /**
- * org.bonn.se.uebung9
+ * ABSTRACT CLASS AbstractDocument
  * Author: Nils Kuhnert
  * Created on 12.12.2015
  * Description:
