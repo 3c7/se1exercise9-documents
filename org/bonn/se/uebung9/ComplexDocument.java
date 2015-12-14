@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Created on 11.12.2015
  * Description:
  */
-public class ComplexDocument extends AbstractDocument implements Document {
+public class ComplexDocument extends AbstractDocument {
     private ArrayList<Document> documents = new ArrayList<Document>();
 
     public boolean addDocument(Document d) {

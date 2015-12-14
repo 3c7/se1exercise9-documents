@@ -6,5 +6,5 @@ package org.bonn.se.uebung9;
  * Created on 11.12.2015
  * Description:
  */
-public abstract class CoreDocument extends AbstractDocument implements Document {
+public abstract class CoreDocument extends AbstractDocument {
 }

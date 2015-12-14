@@ -6,7 +6,7 @@ package org.bonn.se.uebung9;
  * Created on 11.12.2015
  * Description:
  */
-public class GraficDocument extends CoreDocument implements Document {
+public class GraficDocument extends CoreDocument {
     private String url;
 
     public GraficDocument(String s) {

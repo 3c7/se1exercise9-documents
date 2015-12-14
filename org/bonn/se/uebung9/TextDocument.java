@@ -8,7 +8,7 @@ import java.io.UnsupportedEncodingException;
  * Created on 11.12.2015
  * Description:
  */
-public class TextDocument extends CoreDocument implements Document {
+public class TextDocument extends CoreDocument {
     public enum Encoding {UTF8, UTF16, UTF32}
     private String text;
     private Encoding encoding;
